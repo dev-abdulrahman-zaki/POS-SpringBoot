@@ -7,5 +7,5 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class OrderDao {
-    private final OrderRepo orderRepo;
+  private final OrderRepo orderRepo;
 }
