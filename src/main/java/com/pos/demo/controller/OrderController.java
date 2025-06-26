@@ -10,6 +10,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class OrderController {
 
-    private final OrderDao orderDao;
-
+  private final OrderDao orderDao;
 }
