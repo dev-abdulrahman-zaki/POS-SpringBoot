@@ -37,4 +37,9 @@ public class ProductController {
   public ProductEntity getProductByBarcode(@RequestParam String productBarcode) {
     return this.productDao.getProductByBarcode(productBarcode);
   }
+
+  @GetMapping("get-all-products")
+  public Iterable<ProductEntity> getAllProducts() {
+    return this.productDao.getAllProducts();
+  }
 }

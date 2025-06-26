@@ -37,4 +37,8 @@ public class ProductDao {
     }
     return product;
   }
+
+  public Iterable<ProductEntity> getAllProducts() {
+    return this.productRepo.findAll();
+  }
 }
