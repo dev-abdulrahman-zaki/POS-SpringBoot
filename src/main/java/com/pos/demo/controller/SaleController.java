@@ -10,6 +10,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class SaleController {
 
-    private final SaleDao saleDao;
-
+  private final SaleDao saleDao;
 }

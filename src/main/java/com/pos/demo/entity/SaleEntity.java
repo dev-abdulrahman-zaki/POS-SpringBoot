@@ -7,17 +7,17 @@ import lombok.Data;
 @Data
 @Entity
 public class SaleEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "sale_id")
-    private Integer saleId;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "sale_id")
+  private Integer saleId;
 
-    @Column(name = "product_id")
-    private Integer productId;
+  @Column(name = "product_id")
+  private Integer productId;
 
-    @Column(name = "order_id")
-    private Integer orderId;
+  @Column(name = "order_id")
+  private Integer orderId;
 
-//    @Column(name = "sale_createdAt")
-//    private Double saleCreatedAt;
+  //    @Column(name = "sale_createdAt")
+  //    private Double saleCreatedAt;
 }

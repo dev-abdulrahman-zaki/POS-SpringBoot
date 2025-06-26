@@ -7,6 +7,5 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class SaleDao {
-    private final SaleRepo saleRepo;
-    
+  private final SaleRepo saleRepo;
 }

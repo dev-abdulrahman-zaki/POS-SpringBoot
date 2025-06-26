@@ -7,11 +7,11 @@ import lombok.Data;
 @Data
 @Entity
 public class OrderEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "order_id")
-    private Integer orderId;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "order_id")
+  private Integer orderId;
 
-    @Column(name = "order_total")
-    private Integer orderTotal;
+  @Column(name = "order_total")
+  private Integer orderTotal;
 }

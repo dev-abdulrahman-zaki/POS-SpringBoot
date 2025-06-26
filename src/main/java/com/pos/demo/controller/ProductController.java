@@ -13,11 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class ProductController {
 
-    private final ProductDao productDao;
+  private final ProductDao productDao;
 
-    @PostMapping("add-product")
-    public ProductEntity addProduct(@RequestBody ProductEntity product){
-        return this.productDao.addProduct(product);
-    }
-
+  @PostMapping("add-product")
+  public ProductEntity addProduct(@RequestBody ProductEntity product) {
+    return this.productDao.addProduct(product);
+  }
 }
